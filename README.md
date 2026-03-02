@@ -40,7 +40,7 @@ Install required packages:
 
 ```bash
 pip install -r requirements.txt
-
+```
 Built-in Python libraries used (no installation needed):
 
 os, json, time, base64, threading, collections, asyncio, datetime, queue, smtplib, email.message, subprocess
@@ -50,11 +50,11 @@ os, json, time, base64, threading, collections, asyncio, datetime, queue, smtpli
 When gas is detected, an email alert is automatically sent.
 
 Example (inside send_alert_email function):
-
+```bash
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     smtp.login('meilleurtechnologie@gmail.com', 'YOUR_APP_PASSWORD')
     smtp.send_message(msg)
-
+```
 ⚠️ Important Notes:
 
 Replace the email address and password with your own credentials.
@@ -66,7 +66,7 @@ It is strongly recommended to use environment variables to hide sensitive info.
 Never commit credentials to a public GitHub repository.
 
 Complete Email Alert Function:
-
+```bash
 from email.message import EmailMessage
 import smtplib
 
@@ -94,6 +94,7 @@ def send_alert_email(timestamp):
             print("✅ Alert email sent successfully.")
     except Exception as e:
         print("❌ Error sending alert email:", e)
+```
 🖥️ Application Interfaces
 
 Welcome Interface
