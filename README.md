@@ -4,6 +4,8 @@
 ![ONNX](https://img.shields.io/badge/ONNX-Model-orange)
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+
 Application enabling real-time automatic detection of gas leaks using computer vision. It provides audible and visual alerts, along with a dashboard for monitoring, to enhance safety in industrial environments.
 # ⚡ Gas Leak Detection Web Application (FastAPI Deployment)
 
