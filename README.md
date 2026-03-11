@@ -7,7 +7,7 @@ Application enabling real-time automatic detection of gas leaks using computer v
 This option deploys a web application based on **FastAPI** for real-time gas leak detection using computer vision.
 
 ---
-
+![Architechture](demos/ARCH.gif)
 ## ⚙️ Web Application Features
 
 - Monitor multiple IP or USB cameras in real-time.
@@ -96,14 +96,19 @@ def send_alert_email(timestamp):
         print("❌ Error sending alert email:", e)
 ```
 🖥️ Application Interfaces
+## 🖥️ System Interfaces
 
-Welcome Interface
-
+### 1️⃣ Welcome Interface
 Overview of the gas detection system.
 
 Explains how the system works and displays system architecture.
 
-Camera Monitoring Interface
+![Welcome Interface](images_interfaces/home.png)
+
+
+---
+
+### 2️⃣ Camera Monitoring Interface
 
 Displays live feeds for each camera.
 
@@ -111,40 +116,78 @@ Shows FPS for each feed.
 
 Provides additional actions (start, stop, fullscreen).
 
-Camera Management Interface
+![Camera Monitoring](images_interfaces/camera-managemnt.png)
+
+
+---
+
+### 3️⃣ Camera Management Interface
 
 Add, modify, or remove cameras.
 
 Shows connected cameras with ID, URL, location, and possible actions.
 
-Alert History Interface
+![Camera Management](images_interfaces/camera_managemnt.png)
+
+
+---
+
+### 4️⃣ Alert History Interface
 
 View detection history.
 
 Filter records by location and date.
 
-Fullscreen Camera View
+![Alert History](images_interfaces/historique.png)
+
+
+---
+
+### 5️⃣ Fullscreen Camera View
 
 View a camera in fullscreen mode.
 
-Video Playback for Historical Alerts
+![Fullscreen View]("images_interfaces/camera en mode plein ecran.png")
+
+
+---
+
+### 6️⃣ Video Playback for Historical Alerts
 
 Watch recorded gas detection videos.
 
-🎥 Demo Videos
+![Video Playback](images_interfaces/visualisation_video.png)
 
-Local GIF demos:
 
-Demo 1
+---
 
-Demo 2
+# 🎥 Demo Videos
 
-Local MP4 demos:
+## GIF Demonstrations
 
-Demo 1: 📹 Watch video
+### Demo 1
+![Demo 1](demos/demo_1.gif)
 
-Demo 2: 📹 Watch video
+### Demo 2
+![Demo 2](demos/demo_2.gif)
 
+
+---
+
+## MP4 Video Demonstrations
+
+> GitHub does not play MP4 directly inside Markdown, but you can embed using HTML.
+
+### Demo 1
+<video src="demos/demo_1.mp4" controls width="700"></video>
+
+### Demo 2
+<video src="demos/demo_2.mp4" controls width="700"></video>
+
+Or clickable links:
+
+- 📹 [Watch Demo 1](demos/demo_1.mp4)
+- 📹 [Watch Demo 2](demos/demo_2.mp4)
 ⚙️ Installation
 
 Clone the project:
