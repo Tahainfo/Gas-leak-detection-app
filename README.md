@@ -195,28 +195,4 @@ Or clickable links:
 
 - 📹 [Watch Demo 1](demos/demo_1.mp4)
 - 📹 [Watch Demo 2](demos/demo_2.mp4)
-⚙️ Installation
 
-Clone the project:
-
-git clone https://github.com/EmbeddiaInnovX/ComputerVision_Based_AQS.git
-
-Navigate to the application folder:
-
-cd ComputerVision_Based_AQS/Gas_detection_app_(option 2)/
-
-Install Python dependencies:
-
-pip install -r requirements.txt
-
-Run the FastAPI application:
-
-uvicorn app:app --reload
-
-Access the application in your browser:
-
-http://127.0.0.1:8000
-
----
-
-If you want, I can also **add badges for Python, FastAPI, ONNX, and build status** to make your README l
