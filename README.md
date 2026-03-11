@@ -116,7 +116,7 @@ Shows FPS for each feed.
 
 Provides additional actions (start, stop, fullscreen).
 
-![Camera Monitoring](images_interfaces/camera-managemnt.png)
+![Camera Monitoring](images_interfaces/index.png)
 
 
 ---
@@ -127,7 +127,7 @@ Add, modify, or remove cameras.
 
 Shows connected cameras with ID, URL, location, and possible actions.
 
-![Camera Management](images_interfaces/camera_managemnt.png)
+![Camera Management](images_interfaces/camera-managemnt.png)
 
 
 ---
