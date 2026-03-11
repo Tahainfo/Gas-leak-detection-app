@@ -147,7 +147,7 @@ Filter records by location and date.
 
 View a camera in fullscreen mode.
 
-![Fullscreen View]("images_interfaces/camera en mode plein ecran.png")
+![Fullscreen View](images_interfaces/camera%20en%20mode%20plein%20ecran.png)
 
 
 ---
